@@ -36,7 +36,7 @@ void velocidade()
 
     double velocidade, tempo, distancia;
 
-    printf("Digite o distancia: ");
+    printf("Digite a distancia: ");
     scanf("%lf", &distancia);
 
     printf("Digite o tempo: ");
@@ -44,7 +44,7 @@ void velocidade()
 
     velocidade = distancia / (tempo * 60);
 
-    printf("A velocidade Media e: %lf", velocidade);
+    printf("A velocidade media e: %lf", velocidade);
 }
 
 void fatorial()
